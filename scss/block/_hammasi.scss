@@ -1,0 +1,44 @@
+.our__services {
+    text-align: center;
+    font-size: 28px;
+}
+.line__block {
+    @include flex;
+    .line {
+        display: block;
+        width: 56px;
+        height: 2px;
+        background-color: #000;
+    }
+}
+.our__services-info {
+    text-align: center;
+    font-size: 22px;
+    color: #7d7987;
+}
+.flex__box {
+    @include flex2;
+    flex-wrap: wrap;
+    gap: 70px;
+    .box {
+        width: 320px;
+        height: 324px;
+        padding: 37px;
+        border-radius: 20px;
+        box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    }
+}
+.flex {
+   @include flex2;
+   .general_link {
+        padding: 15px 25px;
+        color: #458ff6;
+        border-radius: 55px;
+        font-family: "Mulish";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        text-decoration: none;
+        border: 1px solid #458ff6;  
+    }
+}

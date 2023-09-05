@@ -1,0 +1,25 @@
+.header_box {
+    @include center2;
+    .navbar {
+        ul {
+            @include center2;
+            gap: 20px;
+            margin-left: 500px;
+            li {
+                @include li;
+                a {
+                    text-decoration: none;
+                    @include font;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 23px;
+                    color: #1f1534;
+                    opacity: 0.5;
+                }
+                a:hover {
+                    @include hover;
+                }
+            }
+        }
+    }
+}

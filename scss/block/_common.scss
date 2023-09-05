@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    @include flex2;
+    flex-direction: column;
+    .section_second {
+        margin-bottom: 100px;
+    }
+    .section_third {
+        margin-bottom: 200px
+    }
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container {
+    min-width: 1200px;
+}

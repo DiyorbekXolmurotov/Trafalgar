@@ -1,0 +1,40 @@
+@mixin center {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+@mixin font {
+    font-family:"Mulish";
+    font-style: normal;
+}
+
+@mixin center2 {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+@mixin li {
+    list-style-type: none;
+}
+
+@mixin hover {
+    opacity: 1;
+}
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin mix-blend {
+    mix-blend-mode: normal;
+}
+
